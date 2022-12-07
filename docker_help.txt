@@ -1,0 +1,8 @@
+I always forget these commands:
+sudo service docker start
+sudo docker build . -t ba_os-buildenv
+sudo docker run -it -v "$(pwd)":/root/env ba_os-buildenv
+
+https://askubuntu.com/questions/1437128/docker-service-wont-start-on-ubuntu-22-04-on-wsl2
+
+https://stackoverflow.com/a/68199803/8201665
